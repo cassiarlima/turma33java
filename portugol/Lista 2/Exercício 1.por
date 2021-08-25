@@ -20,10 +20,10 @@ programa
 		M = (E * 4)
 
 		se (P > 50){
-			escreva ("Você excedeu o peso em" +E+ "Kgs e precisa pagar multa de" +M+ "reais.")
+			escreva ("Você excedeu o peso em " +E+ " Kgs e precisa pagar multa de R$ " +M+ " reais.")
 			}
 		senao{
-			escreva ("Você não excedeu o peso")
+			escreva ("Você não excedeu o peso ")
 			}
 	}
 }
@@ -32,7 +32,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 798; 
+ * @POSICAO-CURSOR = 820; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
