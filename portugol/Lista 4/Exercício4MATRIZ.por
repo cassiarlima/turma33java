@@ -1,5 +1,6 @@
 programa
 {
+	inclua biblioteca Util
 	
 	funcao inicio()
 	{
@@ -9,25 +10,23 @@ programa
 		*/
 
 		
-		inteiro m1
-		[3][3], total=0, diagonal=0
+		inteiro  m[3][3], somaValor=0 , diagonal=0, x=0, y=01
 		
-		para (inteiro x=0; x<3;x++){
-			para(inteiro y=0; y<3; y++){
-				escreva("\nDigite o valor da matriz M1 na linha ",x," e na coluna ", y,"  ")
-				leia(m1[x][y])
-				total=total+m1[x][y]
-				se(x==y){
-					diagonal=diagonal+m1[x][y]
+
+		para (x=0; x<3; x++){
+			para (y=0; y<3; y++) {
+			escreva (" Digite o valor das matrizes na linha " ,x, " e na coluna",y, ":" )
+				leia(m[x][y])
+				somaValor = somaValor + m[x][y]
+
+				se (x==y){
+					diagonal= diagonal+m[x][y]
 				}
 			}
 		}
-		escreva("A somatória total é: ", total)
-		escreva("\nA somatória da diagonal principal é de: ", diagonal)	
+		escreva ("\nA soma total das matrizes é: " +somaValor)
+		escreva ("\nA soma das diagonais é: "+diagonal)
 
-
-		
-		
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -35,9 +34,9 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 264; 
+ * @POSICAO-CURSOR = 458; 
  * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = {m1, 12, 10, 2};
+ * @SIMBOLOS-INSPECIONADOS = {m, 13, 11, 1};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
  * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
  */
