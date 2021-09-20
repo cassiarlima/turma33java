@@ -1,9 +1,10 @@
 package Applications;
 
 
-import classe.Cachorro;
+import Cachorro;
 import classe.Cavalo;
 import classe.Preguica;
+
 	public static void main (String[]args) {
 		
 

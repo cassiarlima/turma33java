@@ -4,7 +4,7 @@ package Classes;
 	public class Preguica{
 
 		public Preguica(String nome, int idade) {
-			super(nome, idade);
+			super();
 			// TODO Auto-generated constructor stub
 		}
 		
